@@ -4,10 +4,15 @@ CAN/CANopen/CANopen-like (e.g. PMD Magellan controller) networks(devices).
 canio2 C++ lib is header only.
 canio2 python 2 binding is done via boost.python.
 
-canio2 lib has a plugins system to use different CAN interfaces (e.g. IXXAT 
-USB-to-CAN).
-
 Binaries were successfully built on Windows and QNX (Python version - 2.7).
+
+Tips:
+ - canio2 lib has a plugins system to use different CAN interfaces (e.g. IXXAT 
+USB-to-CAN). You can add support of your CAN interface, see can_plugin.hpp and
+ixxat plugin example.
+ - to run python script place canio2.pyd and plugin dll (e.g. plg_ixxat.dll) into
+the script folder
+
 
 ##############################
 #--- Python script example --#
