@@ -1,0 +1,7 @@
+canio2 project is C++/Python libs to do different I/O operations in 
+CAN/CANopen/CANopen-like networks.
+
+canio2 C++ lib is header only.
+canio2 python binding done via boost.python.
+
+Binaries were successfully built on Windows and QNX.
