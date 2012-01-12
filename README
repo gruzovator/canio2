@@ -12,7 +12,7 @@ USB-to-CAN). You can add support of your CAN interface, see can_plugin.hpp and
 ixxat plugin example.
  - to run python script place canio2.pyd and plugin dll (e.g. plg_ixxat.dll) into
 the script folder
-
+ - async CAN events can be handled via triggers/waiters subsystem 
 
 ##############################
 #--- Python script example --#
@@ -34,4 +34,3 @@ print 'Node State:', node.state
 
 device_type= node.ru32(0x1000,0)
 print 'Device Type:',hex(device_type)
-
