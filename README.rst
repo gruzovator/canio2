@@ -4,6 +4,10 @@ canio2
 :Author: Gruzovator
 :Contact: gruzovator@gmail.com
 
+License
+--------
+BSD License: see LICENSE doc
+
 Description
 -----------
 canio2 project is C++/Python libs to do different I/O operations in 
