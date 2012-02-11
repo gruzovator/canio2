@@ -32,6 +32,8 @@ iface = get_iface('ixxat')
 io_service = canio2.IOService(iface)
 
 #------------------------------------------------------------------------------
+# Main 
+#------------------------------------------------------------------------------
 NODE_ID = 1
 node = CANopenNode(NODE_ID, io_service) 
 
