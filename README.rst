@@ -21,7 +21,7 @@ Binaries are built for Windows and QNX (Python version - 2.7).
 Tips:
 
 * canio2 lib has a plugins system to use different CAN interfaces (e.g. IXXAT 
-  USB-to-CAN). You can add support of your CAN interfaces, see can_plugin.hpp and
+  USB-to-CAN). You can add support for your CAN interfaces, see can_plugin.hpp and
   ixxat plugin example.
 
 * to run python script place canio2.pyd and plugin dll (e.g. plg_ixxat.dll) into
