@@ -10,18 +10,18 @@ BSD License: see LICENSE doc
 
 Description
 -----------
-canio2 project is C++/Python libs to do different I/O operations in 
-CAN/CANopen/CANopen-like (e.g. PMD Magellan controller) networks(devices).
+canio2 project is C++/Python libs to control CAN/CANopen/CANopen-like (e.g. PMD Magellan controller) 
+devices.
 
 canio2 C++ lib is header only.
-canio2 python 2 binding is done via boost.python.
+canio2 python2 binding is done via boost.python.
 
-Binaries were successfully built on Windows and QNX (Python version - 2.7).
+Binaries are built for Windows and QNX (Python version - 2.7).
 
 Tips:
 
 * canio2 lib has a plugins system to use different CAN interfaces (e.g. IXXAT 
-  USB-to-CAN). You can add support of your CAN interface, see can_plugin.hpp and
+  USB-to-CAN). You can add support of your CAN interfaces, see can_plugin.hpp and
   ixxat plugin example.
 
 * to run python script place canio2.pyd and plugin dll (e.g. plg_ixxat.dll) into
